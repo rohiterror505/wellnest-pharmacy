@@ -2,11 +2,11 @@
 
 import { useState } from "react"
 import { MessageCircle, X, Send } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { useSeniorMode } from "@/components/senior-mode-provider"
+import { Button } from "../client/src/components/button"
+import { Card, CardContent, CardHeader, CardTitle } from "../client/src/components/card"
+import { Input } from "../client/src/components/input"
+import { ScrollArea } from "../client/src/components/scroll-area"
+import { useSeniorMode } from "../client/src/components/senior-mode-provider"
 
 interface Message {
   id: number

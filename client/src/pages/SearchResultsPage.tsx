@@ -3,9 +3,9 @@
 import { useState, useEffect } from "react"
 import { useSearchParams, Link } from "react-router-dom"
 import { Star, ShoppingCart, Filter, SlidersHorizontal } from "lucide-react"
-import { useSeniorMode } from "../contexts/SeniorModeContext"
-import { useCart } from "../contexts/CartContext"
-import { searchMedicines, Medicine } from "../data/medicines"
+import { useSeniorMode } from "../core/SeniorModeContext"
+import { useCart } from "../core/CartContext"
+import { searchMedicines, Medicine } from "../core/medicines"
 import toast from "react-hot-toast"
 
 export default function SearchResultsPage() {

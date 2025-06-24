@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { AuthProvider } from "./contexts/AuthContext"
-import { CartProvider } from "./contexts/CartContext"
-import { SeniorModeProvider } from "./contexts/SeniorModeContext"
+import { AuthProvider } from "./core/AuthContext"
+import { CartProvider } from "./core/CartContext"
+import { SeniorModeProvider } from "./core/SeniorModeContext"
 import { Toaster } from "react-hot-toast"
 
 // Pages

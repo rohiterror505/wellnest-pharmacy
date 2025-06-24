@@ -5,9 +5,9 @@ import type React from "react"
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { CreditCard, Smartphone, Building, Truck, MapPin, Clock } from "lucide-react"
-import { useCart } from "../contexts/CartContext"
-import { useSeniorMode } from "../contexts/SeniorModeContext"
-import { useAuth } from "../contexts/AuthContext"
+import { useCart } from "../core/CartContext"
+import { useSeniorMode } from "../core/SeniorModeContext"
+import { useAuth } from "../core/AuthContext"
 import toast from "react-hot-toast"
 
 export default function CheckoutPage() {

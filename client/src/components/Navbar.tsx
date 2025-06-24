@@ -3,9 +3,9 @@
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { ShoppingCart, User, Menu, X, Eye, EyeOff } from "lucide-react"
-import { useAuth } from "../contexts/AuthContext"
-import { useCart } from "../contexts/CartContext"
-import { useSeniorMode } from "../contexts/SeniorModeContext"
+import { useAuth } from "../core/AuthContext"
+import { useCart } from "../core/CartContext"
+import { useSeniorMode } from "../core/SeniorModeContext"
 import SearchBar from "./SearchBar"
 
 export default function Navbar() {

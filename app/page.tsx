@@ -1,9 +1,9 @@
-import { Banner } from "@/components/banner"
-import { CategoryGrid } from "@/components/category-grid"
-import { TrendingProducts } from "@/components/trending-products"
-import { VoiceAssistant } from "@/components/voice-assistant"
-import { ChatBot } from "@/components/chatbot"
-import { SeniorModeProvider } from "@/components/senior-mode-provider"
+import { Banner } from "../client/src/components/banner"
+import { CategoryGrid } from "../client/src/components/category-grid"
+import { TrendingProducts } from "../client/src/components/trending-products"
+import { VoiceAssistant } from "../client/src/components/voice-assistant"
+import { ChatBot } from "../components/chatbot"
+import { SeniorModeProvider } from "../client/src/components/senior-mode-provider"
 
 export default function HomePage() {
   return (

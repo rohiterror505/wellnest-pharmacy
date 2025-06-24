@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Phone, Mail, MapPin, Facebook, Twitter, Instagram } from "lucide-react"
-import { useSeniorMode } from "../contexts/SeniorModeContext"
+import { useSeniorMode } from "../core/SeniorModeContext"
 
 export default function Footer() {
   const { isSeniorMode } = useSeniorMode()

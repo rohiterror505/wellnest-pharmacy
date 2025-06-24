@@ -5,8 +5,8 @@ import type React from "react"
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { Upload, X, FileText, Camera, ImageIcon, Check } from "lucide-react"
-import { useSeniorMode } from "../contexts/SeniorModeContext"
-import { useAuth } from "../contexts/AuthContext"
+import { useSeniorMode } from "../core/SeniorModeContext"
+import { useAuth } from "../core/AuthContext"
 import toast from "react-hot-toast"
 
 interface UploadedFile {

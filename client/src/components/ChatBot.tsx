@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 import { MessageCircle, X, Send } from "lucide-react"
-import { useSeniorMode } from "../contexts/SeniorModeContext"
+import { useSeniorMode } from "../core/SeniorModeContext"
+import { ScrollArea } from "./scroll-area"
 
 interface Message {
   id: number

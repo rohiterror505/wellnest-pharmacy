@@ -2,9 +2,9 @@
 
 import { Link } from "react-router-dom"
 import { Pill, TestTube, Stethoscope, Upload, Star, ShoppingCart, ChevronRight } from "lucide-react"
-import { useSeniorMode } from "../contexts/SeniorModeContext"
-import { useCart } from "../contexts/CartContext"
-import { getTrendingMedicines, categories, medicines, Medicine } from "../data/medicines"
+import { useSeniorMode } from "../core/SeniorModeContext"
+import { useCart } from "../core/CartContext"
+import { getTrendingMedicines, categories, medicines, Medicine } from "../core/medicines"
 import toast from "react-hot-toast"
 
 // Add a type for categories with icon and count
