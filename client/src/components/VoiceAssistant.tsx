@@ -3,7 +3,7 @@
 import { useState, useRef } from "react"
 import { useNavigate } from "react-router-dom"
 import { Mic, MicOff, Volume2, X } from "lucide-react"
-import { useSeniorMode } from "../core/SeniorModeContext"
+import { useSeniorMode } from "./senior-mode-provider"
 import toast from "react-hot-toast"
 
 export default function VoiceAssistant() {

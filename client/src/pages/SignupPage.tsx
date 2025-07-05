@@ -6,7 +6,7 @@ import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { ArrowLeft, Eye, EyeOff } from "lucide-react"
 import { useAuth } from "../core/AuthContext"
-import { useSeniorMode } from "../core/SeniorModeContext"
+import { useSeniorMode } from "../components/senior-mode-provider"
 import toast from "react-hot-toast"
 
 export default function SignupPage() {

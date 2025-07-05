@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react"
 import { useNavigate } from "react-router-dom"
 import { Search, X } from "lucide-react"
-import { useSeniorMode } from "../core/SeniorModeContext"
+import { useSeniorMode } from "./senior-mode-provider"
 import { searchMedicines, Medicine } from "../core/medicines"
 
 export default function SearchBar() {

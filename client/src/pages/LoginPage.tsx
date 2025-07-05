@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { Phone, Mail, ArrowLeft } from "lucide-react"
 import { useAuth } from "../core/AuthContext"
-import { useSeniorMode } from "../core/SeniorModeContext"
+import { useSeniorMode } from "../components/senior-mode-provider"
 import OTPInput from "../components/OTPInput"
 import toast from "react-hot-toast"
 

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import { AuthProvider } from "./core/AuthContext"
 import { CartProvider } from "./core/CartContext"
-import { SeniorModeProvider } from "./core/SeniorModeContext"
+import { SeniorModeProvider } from "./components/senior-mode-provider"
 import { Toaster } from "react-hot-toast"
 
 // Pages
@@ -23,7 +23,7 @@ import ThankYouPage from "./pages/ThankYouPage"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import VoiceAssistant from "./components/VoiceAssistant"
-import ChatBot from "./components/ChatBot"
+import { ChatBot } from "./components/ChatBot"
 import ProtectedRoute from "./components/ProtectedRoute"
 
 // import "./App.css"

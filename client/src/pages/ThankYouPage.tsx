@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
 import { CheckCircle, Package, Bell, Home, FileText } from "lucide-react"
-import { useSeniorMode } from "../core/SeniorModeContext"
+import { useSeniorMode } from "../components/senior-mode-provider"
 
 export default function ThankYouPage() {
   const location = useLocation()

@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom"
 import { Pill, TestTube, Stethoscope, Upload, Star, ShoppingCart, ChevronRight } from "lucide-react"
-import { useSeniorMode } from "../core/SeniorModeContext"
+import { useSeniorMode } from "../components/senior-mode-provider"
 import { useCart } from "../core/CartContext"
 import { getTrendingMedicines, categories, medicines, Medicine } from "../core/medicines"
 import toast from "react-hot-toast"

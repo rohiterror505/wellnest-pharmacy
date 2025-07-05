@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { useSearchParams, Link } from "react-router-dom"
 import { Star, ShoppingCart, Filter, SlidersHorizontal } from "lucide-react"
-import { useSeniorMode } from "../core/SeniorModeContext"
+import { useSeniorMode } from "../components/senior-mode-provider"
 import { useCart } from "../core/CartContext"
 import { searchMedicines, Medicine } from "../core/medicines"
 import toast from "react-hot-toast"

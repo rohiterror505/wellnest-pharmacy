@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom"
 import { ShoppingCart, User, Menu, X, Eye, EyeOff } from "lucide-react"
 import { useAuth } from "../core/AuthContext"
 import { useCart } from "../core/CartContext"
-import { useSeniorMode } from "../core/SeniorModeContext"
+import { useSeniorMode } from "./senior-mode-provider"
 import SearchBar from "./SearchBar"
 
 export default function Navbar() {

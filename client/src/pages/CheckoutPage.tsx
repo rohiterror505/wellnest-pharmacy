@@ -6,7 +6,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { CreditCard, Smartphone, Building, Truck, MapPin, Clock } from "lucide-react"
 import { useCart } from "../core/CartContext"
-import { useSeniorMode } from "../core/SeniorModeContext"
+import { useSeniorMode } from "../components/senior-mode-provider"
 import { useAuth } from "../core/AuthContext"
 import toast from "react-hot-toast"
 
